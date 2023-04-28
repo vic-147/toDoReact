@@ -14,7 +14,7 @@ function TodoItems(props) {
         {props.text}
       </p>
       <span className="Icon Icon-delete" onClick={props.onDelete}>
-        <i className="fa-regular fa-circle-xmark"></i>
+        <i class="fa-regular fa-trash-can"></i>
       </span>
     </li>
   );

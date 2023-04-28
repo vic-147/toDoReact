@@ -12,7 +12,7 @@ function TodoSearch() {
   return (
     <input
       className="td-search"
-      placeholder="Cebolla"
+      placeholder="Buscar 🍳"
       minLength={"3"}
       maxLength={"30"}
       value={search}

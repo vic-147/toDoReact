@@ -3,11 +3,11 @@ import "../styles/CreateTodoButton.css";
 
 function CreateTodoButton(props) {
   const btnClick = () => {
-    props.setOpenModal(true);
+    props.setOpenModal((prevState) => !prevState);
   };
 
   return (
-    <button className="CreateTodoButton" onClick={btnClick}>
+    <button className="CreateTodoButton animate__bounce" onClick={btnClick}>
       <i className="fa-solid fa-circle-plus fa-sm"></i>
     </button>
   );
